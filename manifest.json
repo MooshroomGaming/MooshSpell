@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "MooshSpell",
+  "version": "1.0",
+  "description": "MooshSpell 2025 made by MooshromGaming",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": ["https://*/*", "http://*/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
